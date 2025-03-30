@@ -1,0 +1,26 @@
+<annotation>
+	<folder>datasets</folder>
+	<filename>image20.png</filename>
+	<path>D:\project-ml\detect-image\image\datasets\image20.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>962</width>
+		<height>959</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>topic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>239</xmin>
+			<ymin>75</ymin>
+			<xmax>707</xmax>
+			<ymax>907</ymax>
+		</bndbox>
+	</object>
+</annotation>
