@@ -1,4 +1,4 @@
-train: D:/project-ml/datasets/train/images
-val: D:/project-ml/datasets/val/images  # ถ้าไม่มี validation ใช้ train เหมือนกันได้
+train: D:/project-ml/trn-yl-detect/train/images
+val: D:/project-ml/trn-yl-detect/val/images  # ถ้าไม่มี validation ใช้ train เหมือนกันได้
 nc: 1 
 names: ['topic']
