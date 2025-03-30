@@ -5,7 +5,7 @@ import cv2
 model = YOLO('train/runs/train/exp/weights/best.onnx')  # หรือ path ที่เก็บโมเดลของคุณ
 
 # อ่านภาพจากไฟล์
-img = cv2.imread('test-img/img3.png')  # ใส่ path ของภาพที่ต้องการทำนาย
+img = cv2.imread('test-img/png6.png')  # ใส่ path ของภาพที่ต้องการทำนาย
 
 # ทำการทำนาย
 results = model(img)
