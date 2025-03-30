@@ -1,0 +1,26 @@
+<annotation>
+	<folder>not-detect</folder>
+	<filename>n-img3.png</filename>
+	<path>D:\project-ml\trn-yl-detect\test-img\not-detect\n-img3.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1506</width>
+		<height>955</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>topic</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>473</xmin>
+			<ymin>148</ymin>
+			<xmax>1093</xmax>
+			<ymax>876</ymax>
+		</bndbox>
+	</object>
+</annotation>
