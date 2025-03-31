@@ -5,7 +5,7 @@ import cv2
 from PIL import Image, ImageTk
 
 # โหลดโมเดลที่ฝึกเสร็จแล้ว
-model = YOLO('train/runs/train/exp2/weights/best.onnx')
+model = YOLO('train/runs/train/exp3/weights/best.onnx')
 
 # ฟังก์ชันในการโหลดภาพ
 def load_image():

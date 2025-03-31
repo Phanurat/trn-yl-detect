@@ -4,7 +4,7 @@ import mss
 import pytesseract
 from ultralytics import YOLO
 
-model = YOLO('train/runs/train/exp/weights/best.onnx')  # หรือ path ที่เก็บโมเดลของคุณ
+model = YOLO('train/runs/train/exp3/weights/best.onnx')  # หรือ path ที่เก็บโมเดลของคุณ
 monitor = {"top": 100, "left": 100, "width": 800, "height": 600}
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
