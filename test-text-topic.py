@@ -69,7 +69,7 @@ for i, (box, conf) in enumerate(zip(result.boxes.xyxy, result.boxes.conf)):
             response = client.models.generate_content(
                 model='gemini-2.0-flash', contents=str(promt_gen)
             )
-            print(response.text)
+            print("Test AI Processed :",response.text)
 
             # บันทึกภาพที่ตัด
             # filename = os.path.join(output_folder, f'cropped_object_{i}.png')
